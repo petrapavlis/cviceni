@@ -16,7 +16,7 @@ body {
 }
 
 .header-background {
-  background-image: url(../images/header.jpg);
+  background-image: url(images/header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +25,12 @@ body {
 
 .main-wrap {
   padding: 15px 30px 60px 30px;
+}
+
+.content {
+  max-width: 800px;
+  display: block;
+  margin: auto;
 }
 
 h1 {
@@ -43,7 +49,7 @@ h2 {
 
 .list-item {
   padding: 7px 0 7px 38px;
-  background: url(../images/icon_checkmark.svg) left 0px top 7px no-repeat;
+  background: url(images/icon_checkmark.svg) left 0px top 7px no-repeat;
   background-size: 24px;
 }
 
